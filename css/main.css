@@ -16,7 +16,6 @@
 @import url('./blocks/twitter.css');
 @import url('./blocks/rectang.css');
 @import url('./blocks/devices-part.css');
-@import url('./blocks/ellipse.css');
 @import url('./blocks/list.css');
 @import url('./blocks/footer.css');
 
@@ -30,30 +29,19 @@
 .robotoCondensedFont {font-family: 'Roboto Condensed', sans-serif;}
 
 /* Общие стили */
-
+html {
+    font-size: 62.5%;
+}
 
 body {
     min-width: 375px;
 }
 
-/* Медиазапросы по шрифтам */
-
-@media (min-width: 992px) {
-    html {
-        font-size: 62.5%;
-    }
-
-    .container {
-        max-width: 1024px;
-        margin: auto;
-    }
+.container {
+    max-width: 1024px;
+    margin: auto;
 }
 
-@media (min-width: 640px) and (max-width: 992px) {
-    html {
-        font-size: calc(62.5% - 1.5px);
-    }
-}
 
 
 

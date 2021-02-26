@@ -27,7 +27,7 @@
 }
 
 .logo__text {
-    font-size: 19px;
+    font-size: 1.9rem;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     line-height: 1.2;
@@ -54,17 +54,17 @@
     .logo__author {
         flex-shrink: 0;
         display: block;
-        font-size: 13px;
+        font-size: 1.3rem;
         color: white;
         text-transform: uppercase;
     } 
 
     .logo__text_header {
-      font-size: 41px;
+      font-size: 4.1rem;
     }
 
     .logo__text_footer {
-        font-size: 29px;
+        font-size: 2.9rem;
     }
 
     .logo__image_header {
