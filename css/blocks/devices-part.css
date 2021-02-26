@@ -5,15 +5,16 @@
 .devices-part__header {
     color: #f5c506;
     text-transform: uppercase;
-    font-size: 39px;
+    font-size: 3.9rem;
     line-height: 1.2;
     text-align: center;
-    padding: 1em;
+    padding: 45px 0;
 }
 
 .devices-part__body {
     display: flex;
     margin: 0 50px;
+    padding-bottom: 50px;
 }
 
 .devices-part__list {
@@ -26,25 +27,15 @@
     margin: auto;
 }
 
-.devices-part__ellipse {
-    position: absolute;
-    left: -6%;
-    top: -15%;
-}
-
-.devices-part__body {
-    padding: 25px 0 50px 0;
-}
-
 @media (max-width: 540px) {
     .devices-part__header {
-        font-size: 30px;
+        font-size: 3rem;
     }
 }
 
 @media (max-width: 440px) {
     .devices-part__header {
-        font-size: 23px;
+        font-size: 2.3rem;
     }
 }
 
@@ -58,17 +49,16 @@
         align-self: flex-end;
         display: block;
         height: 100%;
-        margin-left: auto;
-        padding-left: 3vw;
+        padding-left: 70px;
     }
 
     .devices-part__devices {
-        margin: 0;
         width: 50%;
     }
 
     .devices-part__header {
         font-size: 4.3rem;
+        padding: 50px 0 16px 0;
     }
 }
 

@@ -9,11 +9,11 @@
     background-color: #ec9e03;
     width: 50%;
     border-right: 9px solid white;
-    padding: 1em 2em 1em 1em;
+    padding: 27px;
     color: white;
     font-weight: 300;
     line-height: 1.308;
-    font-size: 29px;
+    font-size: 2.9rem;
     overflow: hidden;
 }
 
@@ -29,7 +29,7 @@
 
 @media (max-width: 540px) {
     .poster__text {
-        font-size: 23px;
+        font-size: 2.3rem;
     }
 }
 
