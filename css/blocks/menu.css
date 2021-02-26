@@ -1,13 +1,13 @@
 .menu {
-    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    flex: 1;
     height: 100%;
     background-color: #f3c306;
-    font-size: calc(9px + 10 *((100vw - 320px) / (640 - 320)));
+    font-size: 14px;
     color: rgb(155, 125, 8);
     text-transform: uppercase;
     line-height: 1.2;
-    display: flex;
-    justify-content: stretch;
 }
 
 .menu__item {
@@ -25,23 +25,27 @@
 }
 
 .menu__link {
+    display: inline-flex;
+    align-items: center;
     font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
-    display: inline-block;
+    /* display: inline-block;
+    align-items: center; */
 }
 
 .menu__link::before {
     display: inline-block;
     opacity: 0.7;
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding-right: 8px;
 }
 
 @media (min-width: 768px) {
     .menu {
+        width: 454px;
         height: 42px;
         box-shadow: -5px -5px 2px rgb(214, 150, 30);
-        font-size: 1.7rem;
+        font-size: 17px;
     }
 }

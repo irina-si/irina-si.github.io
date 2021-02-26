@@ -17,6 +17,10 @@
 }
 
 @media (min-width: 768px) {
+    .twitter {
+        background-color: #ec9e03;
+    }
+
     .twitter__list {
         display: none;
     }

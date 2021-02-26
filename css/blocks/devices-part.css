@@ -5,7 +5,7 @@
 .devices-part__header {
     color: #f5c506;
     text-transform: uppercase;
-    font-size: calc(15px + 24 *((100vw - 320px) / (640 - 320)));
+    font-size: 39px;
     line-height: 1.2;
     text-align: center;
     padding: 1em;
@@ -13,6 +13,7 @@
 
 .devices-part__body {
     display: flex;
+    margin: 0 50px;
 }
 
 .devices-part__list {
@@ -21,16 +22,36 @@
 }
 
 .devices-part__devices {
+    position: relative;
     margin: auto;
+}
+
+.devices-part__ellipse {
+    position: absolute;
+    left: -6%;
+    top: -15%;
 }
 
 .devices-part__body {
     padding: 25px 0 50px 0;
 }
 
+@media (max-width: 540px) {
+    .devices-part__header {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 440px) {
+    .devices-part__header {
+        font-size: 23px;
+    }
+}
+
 @media (min-width: 768px) {
     .devices-part__body {
         padding-bottom: 100px;
+        margin: 0;
     }
 
     .devices-part__list {

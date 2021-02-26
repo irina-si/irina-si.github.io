@@ -2,21 +2,22 @@
     display: flex;
     background-color: white;
     height: 233px;
+    border: 9px solid white;
 }
 
 .poster__text {
     background-color: #ec9e03;
+    width: 50%;
+    border-right: 9px solid white;
     padding: 1em 2em 1em 1em;
-    margin-right: calc(2px + 4 *((100vw - 320px) / (640 - 320)));
     color: white;
     font-weight: 300;
     line-height: 1.308;
-    font-size: calc(14px + 12 *((100vw - 320px) / (640 - 320)));
-    flex: 1; 
+    font-size: 29px;
+    overflow: hidden;
 }
 
 .poster__video-container {
-    flex: 1;
     width: 50%;
 }
 
@@ -26,14 +27,21 @@
     object-fit: cover;
 }
 
+@media (max-width: 540px) {
+    .poster__text {
+        font-size: 23px;
+    }
+}
+
 @media (min-width: 768px) {
     .poster {
         padding: 0; 
         margin: 0;
+        border: none;
     }
 
     .poster__text {
-        margin: 0px;
+        border: none;
         padding: 25px 38px 34px 31px;
         font-size: 2.9rem;
     }
