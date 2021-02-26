@@ -19,8 +19,6 @@
 
 .footer__author {
     display: none;
-    color: white;
-    font-size: 1.7rem;
 } 
 
 @media (min-width: 768px) {
@@ -41,6 +39,8 @@
         display: inline-block; 
         flex: 1;
         text-align: end;
+        color: white;
+        font-size: 1.7rem;
     }
 } 
 

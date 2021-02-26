@@ -1,0 +1,22 @@
+.ellipse {
+    background-image: url(./../../img/Ellipse.png);
+    background-size: contain;
+    height: 60px;
+    width: 60px;
+}
+
+
+@media (max-width: 440px) {
+
+}
+
+@media (min-width: 768px) {
+    .ellipse {
+        height: 119px;
+        width: 119px;
+    } 
+}
+
+@media (max-width: 440px) {
+
+}

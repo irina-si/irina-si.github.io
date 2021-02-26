@@ -12,24 +12,35 @@
 }
 
 .header__menu {
-    flex-basis: 75%;
+    flex-grow: 1;
 }
 
+@media (max-width: 540px) {
+    .header__logo {
+        flex-basis: auto;
+    }
+}
+
+@media (max-width: 420px) {
+    .header__logo {
+        display: none;
+    }
+}
 
 @media (min-width: 768px) {
     .header {
         height: 115px;
-        margin-top: 25px;
+        padding-top: 25px;
         justify-content: space-between;
         background-color: transparent;
     } 
 
     .header__logo {
-        flex-basis: 45%;
+        flex-basis: auto;
     }
     
     .header__menu {
-        flex-basis: 45%;
+        flex-grow: 0;
         height: 35px;
         align-self: center;
     }
